@@ -155,6 +155,7 @@ from models import Employee
 from database import employees_collection
 
 #created object for FastAPI
+#added second comment in github firectly to check fetch command
 app = FastAPI(
     title="Employee Management API",
     description="CRUD API using FastAPI and MongoDB",
