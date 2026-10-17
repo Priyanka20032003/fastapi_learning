@@ -162,7 +162,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
-
+# create an employee
 @app.post("/employees")
 def create_employee(employee: Employee):
 
@@ -187,6 +187,7 @@ def get_employees():
     return employees
 
 # get the details
+
 @app.get("/employees/{employee_id}")
 def get_employee(employee_id: str):
 
