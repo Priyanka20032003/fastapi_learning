@@ -186,7 +186,7 @@ def get_employees():
 
     return employees
 
-
+# get the details
 @app.get("/employees/{employee_id}")
 def get_employee(employee_id: str):
 
