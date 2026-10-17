@@ -154,7 +154,7 @@ from bson import ObjectId
 from models import Employee
 from database import employees_collection
 
-
+#created object for FastAPI
 app = FastAPI(
     title="Employee Management API",
     description="CRUD API using FastAPI and MongoDB",
